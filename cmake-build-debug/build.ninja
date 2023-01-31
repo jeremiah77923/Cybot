@@ -82,6 +82,12 @@ build CMakeFiles/selfdrivingcar.dir/backwards.cpp.o: CXX_COMPILER__selfdrivingca
   OBJECT_DIR = CMakeFiles/selfdrivingcar.dir
   OBJECT_FILE_DIR = CMakeFiles/selfdrivingcar.dir
 
+build CMakeFiles/selfdrivingcar.dir/camera.cpp.o: CXX_COMPILER__selfdrivingcar_Debug /Users/jeremiahhawthorne/CLionProjects/selfdrivingcar/camera.cpp || cmake_object_order_depends_target_selfdrivingcar
+  DEP_FILE = CMakeFiles/selfdrivingcar.dir/camera.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/selfdrivingcar.dir
+  OBJECT_FILE_DIR = CMakeFiles/selfdrivingcar.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target selfdrivingcar
@@ -90,7 +96,7 @@ build CMakeFiles/selfdrivingcar.dir/backwards.cpp.o: CXX_COMPILER__selfdrivingca
 #############################################
 # Link the executable selfdrivingcar
 
-build selfdrivingcar: CXX_EXECUTABLE_LINKER__selfdrivingcar_Debug CMakeFiles/selfdrivingcar.dir/main.cpp.o CMakeFiles/selfdrivingcar.dir/image.cpp.o CMakeFiles/selfdrivingcar.dir/left.cpp.o CMakeFiles/selfdrivingcar.dir/right.cpp.o CMakeFiles/selfdrivingcar.dir/forward.cpp.o CMakeFiles/selfdrivingcar.dir/backwards.cpp.o
+build selfdrivingcar: CXX_EXECUTABLE_LINKER__selfdrivingcar_Debug CMakeFiles/selfdrivingcar.dir/main.cpp.o CMakeFiles/selfdrivingcar.dir/image.cpp.o CMakeFiles/selfdrivingcar.dir/left.cpp.o CMakeFiles/selfdrivingcar.dir/right.cpp.o CMakeFiles/selfdrivingcar.dir/forward.cpp.o CMakeFiles/selfdrivingcar.dir/backwards.cpp.o CMakeFiles/selfdrivingcar.dir/camera.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/selfdrivingcar.dir
   POST_BUILD = :
